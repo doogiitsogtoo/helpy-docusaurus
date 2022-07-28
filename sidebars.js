@@ -24,13 +24,15 @@ const sidebars = {
   // But you can create a sidebar manually
   tutorialSidebar: [
     'intro',
+    'tutorial-basics/create-a-page',
+    'duudlag/call-window',
     {
       type: 'category',
       label: 'Дуудлагатай холбоотой',
       items: [
         'duudlaga/call-list',
         'duudlaga/call-report',
-        'duudlaga/connect-report',
+        'duudlaga/connect-history',
         'duudlaga/operator-call',
         'duudlaga/callback',
         'duudlaga/work-management',
@@ -42,7 +44,7 @@ const sidebars = {
       label: 'Мэдлэгийн сан',
       items: [
         'knowledgebase/knowledgebase-management',
-        'knowledgebase/knowledgebase-report'
+        'knowledgebase/knowledgebase-history'
       ],
     },
     {
@@ -68,6 +70,7 @@ const sidebars = {
       type: 'category',
       label: 'Гомдол',
       items: [
+        'gomdol/gomdol',
         'gomdol/gomdol-list',
         'gomdol/gomdol-option',
         'gomdol/gomdol-end',
