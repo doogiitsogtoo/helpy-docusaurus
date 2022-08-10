@@ -25,7 +25,7 @@ const sidebars = {
   tutorialSidebar: [
     'intro',
     'tutorial-basics/create-a-page',
-    'duudlag/call-window',
+    'duudlaga/call-window',
     {
       type: 'category',
       label: 'Дуудлагатай холбоотой',
